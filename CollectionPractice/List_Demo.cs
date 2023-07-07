@@ -25,7 +25,9 @@ namespace CollectionPractice
                 Console.WriteLine(item);
             }
             Console.WriteLine("Count of List -" + list.Count);
+            Console.WriteLine("****************************");
             Console.WriteLine("list of capacity -" + list.Capacity);
+            Console.WriteLine("****************************");
             list.Add(1);
             list.Add(2);
             Console.WriteLine("list of capacity -" + list.Capacity);
@@ -33,9 +35,12 @@ namespace CollectionPractice
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("****************************");
             Console.WriteLine("Count of List -" + list.Count);
             Console.WriteLine("list of capacity -" + list.Capacity);
+            Console.WriteLine("****************************");
             Console.WriteLine("Find Element " + list.Contains(1));
+            Console.WriteLine("****************************");
             Console.WriteLine("Remove Element " + list.Remove(1));
             list.RemoveAt(5);
             foreach(var item in list)
