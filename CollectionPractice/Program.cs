@@ -16,6 +16,8 @@ namespace CollectionPractice
                 Console.WriteLine("Choose the below options");
                 Console.WriteLine("1-List");
                 Console.WriteLine("2-Array");
+                Console.WriteLine("3-Array List");
+                Console.WriteLine("4-Dictionary");
                 int Choice=Convert.ToInt32(Console.ReadLine());
                 
 
@@ -32,6 +34,17 @@ namespace CollectionPractice
                         array_Demo.Add();
                         Console.ReadLine();
                         break;
+                    case 3:
+                        Array_List array_List = new Array_List();
+                        array_List.MyArrayList();
+                        Console.ReadLine();
+                        break;
+                    case 4:
+                        Dictionary_Demo dictionary_Demo = new Dictionary_Demo();
+                        dictionary_Demo.Dictionary();
+                        Console.ReadLine();
+                        break;
+
                 }
             }
             
